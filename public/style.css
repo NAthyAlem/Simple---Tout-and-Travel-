@@ -1,0 +1,281 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+  
+}
+body {
+    background-image: linear-gradient(to bottom white, black);
+}
+nav {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.nav-item1 {
+    display: flex;
+    
+
+}
+.span1 {
+    color: orange;
+}
+.logo {
+    font-family: "Libre Baskerville", serif;
+    margin-left: 100px;
+    font-size: 30px;
+    
+}
+.item {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.item:hover {
+    color: orange;
+}
+.nav-items2 {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    margin-right: 100px;
+}
+.btn {
+    background-color: orange;
+    color: white; /* Ensures button text is readable */
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 10px 20px; /* Adds more horizontal padding for a balanced look */
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; /* Smooth hover and interaction transitions */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Hover state */
+.btn:hover {
+    background-color: darkorange; /* Darkens the button on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Intensifies the shadow on hover */
+    transform: scale(1.05); /* Adds a slight zoom effect */
+}
+
+/* Active state (when clicked) */
+.btn:active {
+    background-color: orangered; /* Changes color to give feedback on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Softens the shadow when clicked */
+    transform: scale(1); /* Resets the zoom effect */
+}
+
+.second{
+    margin-right: 70px;
+}
+.body-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.first-body-section {
+    padding: 100px;
+}
+.first-header{
+    font-size: 48px;
+    font-family: "Libre Baskerville", serif;
+    line-height: 90px;
+    
+}
+.first-body-section > p {
+    font-size: 26px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 50px;
+}
+.adventure{
+    color: orange;
+}
+.second-body-section {
+    display: flex;
+    height: 100vh;
+    margin-top: 100px;
+    justify-content: center;
+}
+.bodyimg {
+    border-radius: 30px;
+    margin-right: 100px;
+}
+.travel-detail {
+    display: grid;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    padding-top: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    border: 1px solid;
+    box-shadow: 4px 4px 8px;
+    border-radius: 10px;
+}
+.travel-detail p {
+    font-size: 20px;
+}
+.first-travel-detail-sub-detail {
+    display: flex;
+
+}
+.second-travel-detail-sub-detail{
+    display: flex
+}
+.detail-header{
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.search-btn {
+    border-radius: 10px;
+    color: white;
+    background-color: orange;
+    font-size: 20px;
+    width: 75%;
+    height: 50%;
+    border: none;
+    padding: 10px 20px; /* Adds some padding for better button aesthetics */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; /* Smooth transitions for hover effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern look */
+}
+
+.search-btn:hover {
+    background-color: darkorange; /* Darkens button on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Increases shadow on hover */
+    transform: scale(1.05); /* Slight zoom effect for interactivity */
+}
+
+.search-btn:active {
+    background-color: orangered; /* Darker tone when the button is clicked */
+    transform: scale(1); /* Reset zoom effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Softer shadow on click */
+}
+
+
+/*  sign in and sign up page*/
+
+.sign-up-main{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sign-up-main-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1000px;
+    height: 600px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.left-panel {
+    height: inherit;
+    background: url(../public/img/signup.jpg) no-repeat  center/cover;
+    position: relative;
+   
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.sign-in-description{
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    line-height: 1.5;
+}
+.right-panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    width: 100%;
+}
+.sign-in-title{
+    color: orange;
+    margin-bottom: 20px;
+}
+.sign-in-form{
+    display: flex;
+    flex-direction: column;
+    width: 75%; 
+}
+.signin-input{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.signin-input:focus{
+    border-color: #ffae18;
+    outline: none;
+}
+.forgot-password{
+    color: #a0782f;
+   text-align: right;
+}
+.forgot-password:hover{
+    color: #ffae18;
+    text-decoration: underline;
+}
+.sign-up-button{
+    background-color: rgb(211, 157, 56);
+    color: white;
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.sign-up-button:hover{
+    background-color: rgb(243, 153, 42); /* Darkens button on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Increases shadow on hover */
+    transform: scale(1.05) translateY(-5px);
+    transition: all 0.4s ease-in-out;
+}
+.sign-up-button:active {
+    transform: scale(0.95); 
+    background-color: rgb(220, 118, 51); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); 
+}
+.sign-up-haveAccount{
+    font-size: 12px;
+    text-align: center;
+}
+.login-btn{
+    color: #ca9534;
+    transition: all 0.3s ease-in-out;
+}
+.login-btn:hover{
+    color: #ce9224;
+    text-decoration: underline;
+    transform: scale(1.05) translateY(-20px);
+    transition: all 0.4s ease-in-out;
+}
