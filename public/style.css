@@ -161,6 +161,13 @@ nav {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Softer shadow on click */
 }
 
+/* logged-in user style  */
+.user-profile{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
 
 /*  sign in and sign up page*/
 
@@ -183,7 +190,7 @@ nav {
 }
 .left-panel {
     height: inherit;
-    background: url(../public/img/signup.jpg) no-repeat  center/cover;
+    background: url(img/signup.jpg) no-repeat  center/cover;
     position: relative;
    
 }
@@ -241,6 +248,14 @@ nav {
     color: #ffae18;
     text-decoration: underline;
 }
+.social-icons{
+    color: white;
+}
+.social-icons > a{
+    margin-left: 20px;
+    filter: brightness(0) invert(1);
+}
+
 .sign-up-button{
     background-color: rgb(211, 157, 56);
     color: white;
@@ -270,12 +285,12 @@ nav {
     text-align: center;
 }
 .login-btn{
-    color: #ca9534;
-    transition: all 0.3s ease-in-out;
+    color: #ac853d;
 }
 .login-btn:hover{
-    color: #ce9224;
+    color: #ca8f20;
     text-decoration: underline;
-    transform: scale(1.05) translateY(-20px);
-    transition: all 0.4s ease-in-out;
+}
+.login-btn:active{
+    color: #ffae18;
 }

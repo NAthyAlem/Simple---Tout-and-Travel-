@@ -1,5 +1,25 @@
 {
   "dependencies": {
-    "ejs": "^3.1.10"
-  }
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0"
+  },
+  "name": "landingpage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NAthyAlem/Simple---Tout-and-Travel-.git"
+  },
+  "author": "Natnael Bahiru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NAthyAlem/Simple---Tout-and-Travel-/issues"
+  },
+  "homepage": "https://github.com/NAthyAlem/Simple---Tout-and-Travel-#readme",
+  "description": ""
 }
